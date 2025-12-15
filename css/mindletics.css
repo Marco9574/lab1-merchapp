@@ -1,4 +1,18 @@
+html {
+    --wit: #F5F5F5;
+    --zwart: #1C1C1C;
+    --paars: #A874D2;
+    --groen: #7DDE92;
+}
+
 @font-face {
     font-family: Atkinson Hyperlegible;
     src: url(../fonts/AtkinsonHyperlegibleNext-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Atkinson Hyperlegible;
+    color: var(--wit);
+    margin: 0;
+    background-color: var(--paars);
 }

@@ -89,6 +89,17 @@ hr {
     margin: 4em 0 8em 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .nav_bar {
     display: flex;
     justify-content: space-evenly;
@@ -113,6 +124,11 @@ hr {
     width: 2em;
 }
 
+.nav_bar a {
+    text-decoration: none;
+    color: var(--wit);
+}
+
 .nav_bar p {
     margin: 0.3em 0 0 0;
     font-size: 0.9em;
@@ -120,12 +136,11 @@ hr {
 
 .nav_bar_home::after {
     content: '';
-    position: absolute;
-    bottom: 4px;
-    left: 0;
-    width: 4em;
-    height: 3px;
+    position: relative;
+    bottom: -2px;
+    width: 3.5em;
+    height: 5px;
     border-radius: 99em;
     background-color: var(--groen);
-    transition: background-color 0.3s;
+    /*transition: background-color 0.3s;*/
 }

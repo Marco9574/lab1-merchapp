@@ -65,11 +65,10 @@ hr {
 
 .nav_bar_home::after {
     content: '';
-    position: relative;
-    bottom: -2px;
+    position: absolute;
+    bottom: 3px;
     width: 3.5em;
     height: 5px;
     border-radius: 99em;
     background-color: var(--groen);
-    /*transition: background-color 0.3s;*/
 }

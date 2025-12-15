@@ -64,7 +64,7 @@ hr {
 }
 
 .algemene_uitleg {
-    margin: 4em 0;
+    margin: 4em 0 0 0;
 }
 
 .mindyonderlijn {
@@ -76,6 +76,15 @@ hr {
 }
 
 .mindy_dumbbell {
-    width: 30%;
+    width: 35%;
     order: 5;
+}
+
+.wat_doen_we_section {
+    margin: 0;
+}
+
+.klaar_start_section {
+    text-align: center;
+    margin: 4em 0 8em 0;
 }

@@ -26,78 +26,6 @@ p, ul {
     font-size: var(--fontsizeP);
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
-
-h1, header {
-    font-weight: normal;
-    text-align: center;
-}
-
-h1, header p {
-    font-size: var(--fontsizeP);
-}
-
-.headerlogo {
-    width: 15em;
-    margin: -6.5em 0 -7.3em 0;
-}
-
-hr {
-    border: 2px solid var(--wit);
-    border-radius: 10em;
-}
-
-.kernwaarden_section {
-    text-align: center;
-}
-
-.kernwaarden {
-    display: flex;
-    justify-content: space-between;
-}
-
-.kernwaarden p {
-    margin-top: 0.2em;
-}
-
-.algemene_uitleg {
-    margin: 4em 0 0 0;
-}
-
-.mindyonderlijn {
-    text-decoration: underline;
-}
-
-.paragraaf_mindy {
-    display: flex;
-}
-
-.mindy_dumbbell {
-    width: 35%;
-    order: 5;
-}
-
-.wat_doen_we_section {
-    margin: 0;
-}
-
-.klaar_start_section {
-    text-align: center;
-    margin: 4em 0 8em 0;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 .nav_bar {
@@ -132,15 +60,4 @@ hr {
 .nav_bar p {
     margin: 0.3em 0 0 0;
     font-size: 0.9em;
-}
-
-.nav_bar_home::after {
-    content: '';
-    position: relative;
-    bottom: -2px;
-    width: 3.5em;
-    height: 5px;
-    border-radius: 99em;
-    background-color: var(--groen);
-    /*transition: background-color 0.3s;*/
 }

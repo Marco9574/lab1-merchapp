@@ -1,0 +1,56 @@
+html {
+    --wit: #F5F5F5;
+    --zwart: #1C1C1C;
+    --paars: #A874D2;
+    --groen: #7DDE92;
+
+    --padding: 1.2em;
+
+    --fontsizeP: 1.2em;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 1em 0 1em 0;
+}
+
+h1 {
+    grid-column: 2 / 3;
+    justify-self: center;
+    margin: 0;
+}
+
+.winkelmand-btn {
+    font-size: 1em;
+    grid-column: 3 / 4;
+    justify-self: flex-end;
+    margin: 0;
+}
+
+.merch-catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 1em;
+}
+
+.merch-catalog img {
+    width: 100%;
+    border: 2px solid var(--wit);
+    border-radius: 0.5em;
+}
+
+.merch-catalog h3, .merch-catalog p {
+    margin: 0;
+}
+
+.merch-catalog a {
+    text-decoration: none;
+    color: var(--wit);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}

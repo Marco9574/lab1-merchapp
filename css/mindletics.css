@@ -3,6 +3,10 @@ html {
     --zwart: #1C1C1C;
     --paars: #A874D2;
     --groen: #7DDE92;
+
+    --padding: 1.2em;
+
+    --fontsizeP: 1.2em;
 }
 
 @font-face {
@@ -15,4 +19,33 @@ body {
     color: var(--wit);
     margin: 0;
     background-color: var(--paars);
+    padding: var(--padding);
+}
+
+p, ul {
+    font-size: var(--fontsizeP);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, header {
+    font-weight: normal;
+    text-align: center;
+}
+
+h1, header p {
+    font-size: var(--fontsizeP);
+}
+
+.headerlogo {
+    width: 15em;
+    margin: -6.5em 0 -7.3em 0;
+}
+
+hr {
+    border: 2px solid var(--wit);
+    border-radius: 10em;
 }

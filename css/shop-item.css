@@ -30,16 +30,51 @@ h1 {
     color: var(--wit);
 }
 
-header .back-btn {
+.back-btn {
     align-self: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 .back-icon {
     display: block;
 }
 
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 7em;
+}
 
+h2, h3, p, ul {
+    margin: 0;
+}
 
+.product-img {
+    border: 2px solid var(--wit);
+    border-radius: 0.5em;
+}
+
+.addtocart-btn {
+    display: flex;
+    color: var(--wit);
+    text-decoration: none;
+    background-color: var(--groen);
+    width: fit-content;
+    padding: 1em 1.3em;
+    border-radius: 0.5em;
+    gap: 0.3em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.addtocart-btn p {
+    margin: 0;
+}
+
+.product-description p {
+    margin-bottom: 1em;
+}
 
 
 

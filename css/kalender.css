@@ -13,3 +13,26 @@ header {
     margin: 1em 0 1em 0;
     text-align: center;
 }
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    text-align: center;
+    padding: 4% 0;
+}
+
+
+
+
+.nav_bar_kalender::after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    width: 3.5em;
+    height: 5px;
+    border-radius: 99em;
+    background-color: var(--groen);
+}

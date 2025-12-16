@@ -1,0 +1,87 @@
+html {
+    --wit: #F5F5F5;
+    --zwart: #1C1C1C;
+    --paars: #A874D2;
+    --groen: #7DDE92;
+
+    --padding: 1.2em;
+
+    --fontsizeP: 1.2em;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 1em 0 1em 0;
+}
+
+main {
+    margin-bottom: 7em;
+}
+
+h1 {
+    justify-self: center;
+    margin: 0;
+}
+
+.back-btn {
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.back-icon {
+    display: block;
+}
+
+h2, p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0.5em 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.activity-img {
+    border: 2px solid var(--wit);
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+.schrijfjein-btn {
+    display: flex;
+    color: var(--wit);
+    text-decoration: none;
+    background-color: var(--groen);
+    width: fit-content;
+    padding: 1em 1.3em;
+    border-radius: 0.5em;
+    gap: 0.3em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.activity-description, .activity-info {
+    margin-bottom: 1em;
+}
+
+.schrijfjein-bel {
+    display: flex;
+    gap: 1em;
+}
+
+
+
+.nav_bar_kalender::after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    width: 3.5em;
+    height: 5px;
+    border-radius: 99em;
+    background-color: var(--groen);
+}

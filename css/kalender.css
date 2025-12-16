@@ -24,6 +24,21 @@ td {
     padding: 4% 0;
 }
 
+.calendar-month-year {
+    text-align: left;
+    font-weight: bold;
+}
+
+.calendar-activity-dot {
+    background-color: var(--groen);
+    border-radius: 99em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+main {
+    margin-bottom: 7em;
+}
+
 
 
 

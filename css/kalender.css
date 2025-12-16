@@ -1,0 +1,15 @@
+html {
+    --wit: #F5F5F5;
+    --zwart: #1C1C1C;
+    --paars: #A874D2;
+    --groen: #7DDE92;
+
+    --padding: 1.2em;
+
+    --fontsizeP: 1.2em;
+}
+
+header {
+    margin: 1em 0 1em 0;
+    text-align: center;
+}

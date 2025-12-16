@@ -13,11 +13,19 @@ h2, p {
     margin: 0;
 }
 
+main {
+    margin-bottom: 7em;
+}
+
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: baseline;
+    align-items: center;
     margin: 1em 0 1em 0;
+}
+
+h1 {
+    margin: 0;
 }
 
 .cart-content-wrapper {
@@ -44,6 +52,38 @@ header {
     margin: 0 0 0 auto;
 }
 
+hr {
+    border: 2px solid var(--wit);
+    border-radius: 99em;
+    margin-top: 2em;
+}
+
+.addtocart-btn {
+    display: flex;
+    color: var(--wit);
+    text-decoration: none;
+    background-color: var(--groen);
+    width: fit-content;
+    padding: 1em 1.3em;
+    border-radius: 0.5em;
+    gap: 0.3em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.addtocart-btn p {
+    margin: 0;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cart-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 

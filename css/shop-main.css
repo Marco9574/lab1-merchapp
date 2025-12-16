@@ -9,6 +9,10 @@ html {
     --fontsizeP: 1.2em;
 }
 
+main {
+    margin-bottom: 7em;
+}
+
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

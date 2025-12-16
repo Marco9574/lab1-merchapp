@@ -48,6 +48,66 @@ table a {
     text-decoration: none;
 }
 
+#activity-overlay {
+    position: fixed;
+    background-color: var(--paars);
+    margin: 0 var(--padding) 0 0;
+    border: 2px solid var(--wit);
+    border-radius: 1em;
+    padding: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+
+    visibility: hidden;
+}
+
+#activity-overlay:target {
+    visibility: visible;
+}
+
+.activity-overlay-img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#activity-overlay h2, #activity-overlay h3, #activity-overlay p {
+    margin: 0;
+}
+
+#activity-overlay .activity-overlay-header, #activity-overlay h3, #activity-overlay .activity-overlay-info {
+    margin-bottom: 0.5em;
+}
+
+.activity-overlay-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 1em;
+}
+
+#activity-overlay .close-btn {
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.meerinfo-btn {
+    display: flex;
+    color: var(--wit);
+    text-decoration: none;
+    background-color: var(--groen);
+    width: fit-content;
+    padding: 1em 1.3em;
+    border-radius: 0.5em;
+    gap: 0.3em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    
+}
+
 
 
 
